@@ -28,3 +28,11 @@
 2026-07-03 22:09:13,519 | INFO | Detected face in person_02_1.jpg
 2026-07-03 22:09:13,954 | INFO | Detected face in person_03_0.jpg
 2026-07-03 22:09:14,400 | INFO | Detected face in person_03_1.jpg
+2026-07-03 22:22:01,395 | INFO | Loading InsightFace model...
+2026-07-03 22:22:04,256 | INFO | InsightFace model loaded successfully.
+2026-07-03 22:22:06,547 | INFO | Detected face in person_01_0.jpg
+2026-07-03 22:22:07,906 | INFO | Detected face in person_01_1.jpg
+2026-07-03 22:22:08,767 | INFO | Detected face in person_02_0.jpg
+2026-07-03 22:22:09,183 | INFO | Detected face in person_02_1.jpg
+2026-07-03 22:22:09,641 | INFO | Detected face in person_03_0.jpg
+2026-07-03 22:22:10,161 | INFO | Detected face in person_03_1.jpg
