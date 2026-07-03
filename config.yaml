@@ -1,0 +1,21 @@
+dataset_path: dataset
+output_path: output
+report_path: report
+
+model:
+  name: buffalo_l
+  providers:
+    - CPUExecutionProvider
+
+clustering:
+  eps: 0.45
+  min_samples: 1
+
+confidence:
+  threshold: 0.75
+
+visualization:
+  enabled: true
+
+logging:
+  level: INFO

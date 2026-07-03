@@ -1,0 +1,30 @@
+2026-07-03 21:42:07,642 | INFO | Loading InsightFace model...
+2026-07-03 21:43:03,333 | INFO | Model loaded successfully.
+2026-07-03 21:43:28,132 | INFO | 1 face(s) detected in test.jpg
+2026-07-03 21:47:53,449 | INFO | Loading InsightFace model...
+2026-07-03 21:47:55,790 | INFO | Model loaded successfully.
+2026-07-03 21:47:57,994 | INFO | 1 face(s) detected in test.jpg
+2026-07-03 22:02:37,750 | INFO | Loading InsightFace model...
+2026-07-03 22:02:40,246 | INFO | Model loaded successfully.
+2026-07-03 22:02:40,480 | INFO | Loading InsightFace model...
+2026-07-03 22:02:42,026 | INFO | 4 face(s) detected in person_01_0.jpg
+2026-07-03 22:02:43,147 | INFO | 2 face(s) detected in person_01_1.jpg
+2026-07-03 22:02:44,334 | INFO | Model loaded successfully.
+2026-07-03 22:02:44,370 | INFO | 2 face(s) detected in person_02_0.jpg
+2026-07-03 22:02:45,159 | INFO | 1 face(s) detected in person_02_1.jpg
+2026-07-03 22:02:45,981 | INFO | 1 face(s) detected in person_03_0.jpg
+2026-07-03 22:02:46,579 | INFO | 4 face(s) detected in person_01_0.jpg
+2026-07-03 22:02:46,725 | INFO | 1 face(s) detected in person_03_1.jpg
+2026-07-03 22:02:47,488 | INFO | 2 face(s) detected in person_01_1.jpg
+2026-07-03 22:02:48,300 | INFO | 2 face(s) detected in person_02_0.jpg
+2026-07-03 22:02:48,830 | INFO | 1 face(s) detected in person_02_1.jpg
+2026-07-03 22:02:49,309 | INFO | 1 face(s) detected in person_03_0.jpg
+2026-07-03 22:02:49,804 | INFO | 1 face(s) detected in person_03_1.jpg
+2026-07-03 22:09:08,040 | INFO | Loading InsightFace model...
+2026-07-03 22:09:10,428 | INFO | InsightFace model loaded successfully.
+2026-07-03 22:09:11,725 | INFO | Detected face in person_01_0.jpg
+2026-07-03 22:09:12,401 | INFO | Detected face in person_01_1.jpg
+2026-07-03 22:09:13,069 | INFO | Detected face in person_02_0.jpg
+2026-07-03 22:09:13,519 | INFO | Detected face in person_02_1.jpg
+2026-07-03 22:09:13,954 | INFO | Detected face in person_03_0.jpg
+2026-07-03 22:09:14,400 | INFO | Detected face in person_03_1.jpg
