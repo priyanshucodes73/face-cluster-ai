@@ -5,6 +5,7 @@ from src.services.embedder import FaceEmbedder
 from src.services.cluster import FaceClusterer
 from src.services.confidence import ConfidenceCalculator
 from src.services.organizer import OutputOrganizer
+from src.services.report import ReportGenerator
 
 DATASET = Path("dataset/person_identification")
 
@@ -18,10 +19,11 @@ def main():
     clusterer = FaceClusterer()
     confidence = ConfidenceCalculator()
     organizer = OutputOrganizer()
+    report = ReportGenerator()
 
     faces = []
 
-    # Process all images
+    # Detect and normalize faces
     for image in sorted(DATASET.glob("*.*")):
 
         detected_faces = detector.detect(image)
@@ -33,11 +35,14 @@ def main():
     # Cluster faces
     clustered_faces = clusterer.cluster(faces)
 
-    # Assign confidence
+    # Calculate confidence
     clustered_faces = confidence.assign(clustered_faces)
 
-    # Organize output folders
+    # Organize clustered images
     organizer.organize(clustered_faces)
+
+    # Generate CSV report
+    report_path = report.generate(clustered_faces)
 
     # Print results
     print("\n========== RESULT ==========\n")
@@ -51,7 +56,8 @@ def main():
 
     print("\n=============================================")
     print("✅ Face clustering completed successfully.")
-    print("📁 Clustered images saved in: output/")
+    print("📁 Clustered images saved in : output/")
+    print(f"📄 CSV report generated at  : {report_path}")
     print("=============================================\n")
 
 
